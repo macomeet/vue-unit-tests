@@ -12,13 +12,13 @@ export default {
       type: String,
       required: false,
       default: '',
-    }
+    },
   },
   beforeMount() {
     return 'Before mount'
   },
   created() {
     return 'created'
-  }
+  },
 }
 </script>

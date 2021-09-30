@@ -2,8 +2,12 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      I'm a small app with a few components but I need some unit tests. Can you help me?
-      <a href="https://next.vue-test-utils.vuejs.org/" target="_blank" rel="noopener"
+      I'm a small app with a few components but I need some unit tests. Can you
+      help me?
+      <a
+        href="https://next.vue-test-utils.vuejs.org/"
+        target="_blank"
+        rel="noopener"
         >vue-unit test docs</a
       >.
     </p>
@@ -111,11 +115,11 @@
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: 'HelloWorld',
   props: {
     msg: String,
   },
-};
+}
 </script>
 
 <style scoped lang="scss">

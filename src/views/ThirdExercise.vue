@@ -5,11 +5,11 @@
 </template>
 
 <script>
-import LifeCycle from "@/components/LifeCycle.vue";
+import LifeCycle from '@/components/LifeCycle.vue'
 export default {
-  name: "FirstExercise",
+  name: 'FirstExercise',
   components: {
     LifeCycle,
   },
-};
+}
 </script>

@@ -5,11 +5,11 @@
 </template>
 
 <script>
-import Counter from "@/components/Counter.vue";
+import Counter from '@/components/Counter.vue'
 export default {
-  name: "FirstExercise",
+  name: 'FirstExercise',
   components: {
     Counter,
   },
-};
+}
 </script>
